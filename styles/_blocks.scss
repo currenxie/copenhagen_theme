@@ -73,6 +73,13 @@
     }
   }
 
+  &-item-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url($assets-accounts-png);
+  }
+
   &-item-title {
     margin-bottom: 0;
     font-size: 16px;
