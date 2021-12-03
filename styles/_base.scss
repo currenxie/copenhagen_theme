@@ -39,7 +39,8 @@ a {
   &:hover,
   &:active,
   &:focus {
-    text-decoration: underline;
+    color: $link_color_hover;
+    text-decoration: none !important;
   }
 }
 
@@ -56,7 +57,7 @@ input {
 
   &:not([type="checkbox"]) {
     outline: none;
-    
+
     &:focus {
       border: 1px solid $brand_color;
     }

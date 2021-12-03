@@ -9,14 +9,14 @@
 
   > button {
     border: 0;
-    color: $link_color;
+    color: $brand_text_color;
     min-width: 0;
     padding: 0;
     white-space: nowrap;
 
     &:hover,
     &:focus {
-      color: $link_color;
+      color: $link_color_hover;
       background-color: transparent;
     }
 

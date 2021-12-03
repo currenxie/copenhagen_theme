@@ -1,17 +1,23 @@
 // Variables
 
 // Colors
-$brand_color: #17494d !default;
+$brand_color: #222 !default;
 $brand_text_color: #fff !default; //Color for text with an accent color background
-$text_color: #333 !default;
-$link_color: #17494d !default;
+$text_color: #222 !default;
+$link_color: #45be76 !default;
 $background_color: #fff !default;
 
-$hover-button-color: zass-darken($brand_color, 20%);
-$secondary-text-color: zass-lighten($text_color, 20%);
+$link_color_hover: #59d28a;
+
+$hover-button-color: zass-darken($brand_color, 50%);
+$secondary-text-color: zass-lighten($text_color, 50%);
 
 $primary-shade: zass-darken($background_color, 3%); //#f8f8f8 for the default background_color
 $secondary-shade: zass-darken($background_color, 5%); //#f2f2f2 for the default background_color
+
+$border-radius: 5px;
+$color-gray-dark: #888;
+$color-gray-main: #ddd;
 
 $font-size-bigger: 16px;
 $font-size-base: 15px;
@@ -19,13 +25,13 @@ $font-size-navigation: 14px;
 $font-size-small: 13px;
 $font-size-smaller: 11px;
 
-$border-color: #ddd;
+$border-color: #fff;
 
 $button-color: $brand_color;
 
 $input-font-size: 14px;
-$field-text-color: #666;
-$field-text-focus-color: #555;
+$field-text-color: #222;
+$field-text-focus-color: #222;
 
 // Breakpoints variables
 $tablet-width: 768px;
