@@ -63,7 +63,8 @@ $header-height: 65px;
     border: 0;
     color: $brand_text_color;
     display: none;
-    font-size: 14px;
+    font-size: $font-size-navigation;
+    line-height: 21px;
     padding: 0 20px 0 0;
     width: auto;
 
