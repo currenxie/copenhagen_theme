@@ -8,6 +8,8 @@
   }
 
   > button {
+    font-family: $text_font_medium;
+    font-weight: $font-weight-semibold;
     border: 0;
     color: $brand_text_color;
     min-width: 0;
@@ -19,6 +21,10 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-align-items: baseline;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
 
     &:hover,
     &:focus {

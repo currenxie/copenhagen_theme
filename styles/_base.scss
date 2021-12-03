@@ -1,6 +1,41 @@
 /***** Base *****/
+@font-face {
+  font-family: 'Styrene B Regular';
+  src: url('$assets-StyreneB-Regular-Web-woff2') format('woff2'),
+  url('$assets-StyreneB-Regular-Web-woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Styrene B Medium';
+  src: url('$assets-StyreneB-Medium-Web-woff2') format('woff2'),
+  url('$assets-StyreneB-Medium-Web-woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Styrene B Bold';
+  src: url('$assets-StyreneB-Bold-Web-woff2') format('woff2'),
+  url('$assets-StyreneB-Bold-Web-woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
+}
+
+*::selection {
+  background: $color-red;
+  color: $brand_text_color;
 }
 
 body {
@@ -9,7 +44,7 @@ body {
   font-family: $text_font;
   font-size: $font-size-base;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.15px;
 
   > main {
     @include desktop {

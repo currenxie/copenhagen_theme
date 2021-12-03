@@ -182,8 +182,40 @@ template {
 }
 
 /***** Base *****/
+@font-face {
+  font-family: 'Styrene B Regular';
+  src: url("$assets-StyreneB-Regular-Web-woff2") format("woff2"), url("$assets-StyreneB-Regular-Web-woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Styrene B Medium';
+  src: url("$assets-StyreneB-Medium-Web-woff2") format("woff2"), url("$assets-StyreneB-Medium-Web-woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Styrene B Bold';
+  src: url("$assets-StyreneB-Bold-Web-woff2") format("woff2"), url("$assets-StyreneB-Bold-Web-woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
+}
+
+*::selection {
+  background: #ed1c24;
+  color: $brand_text_color;
 }
 
 body {
@@ -192,7 +224,7 @@ body {
   font-family: $text_font;
   font-size: 16px;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.15px;
 }
 
 @media (min-width: 1024px) {
@@ -216,7 +248,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h4 {
@@ -705,6 +737,8 @@ ul {
 }
 
 .nav-wrapper a {
+  font-family: "Styrene B Medium", BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  font-weight: 500;
   border: 0;
   color: $brand_text_color;
   display: none;
@@ -833,6 +867,8 @@ ul {
 }
 
 .user-info > button {
+  font-family: "Styrene B Medium", BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  font-weight: 500;
   border: 0;
   color: $brand_text_color;
   min-width: 0;
@@ -844,6 +880,10 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 .user-info > button:hover, .user-info > button:focus {
@@ -1251,8 +1291,9 @@ ul {
 }
 
 .blocks-item-title {
+  font-family: "Styrene B Medium", BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  font-weight: 500;
   margin-bottom: 0;
-  font-size: 16px;
 }
 
 .blocks-item-description {
@@ -1384,6 +1425,8 @@ ul {
 }
 
 .recent-activity-item-parent {
+  font-family: "Styrene B Medium", BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -1516,7 +1559,7 @@ ul {
 .section-tree-title {
   margin-bottom: 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .section-tree-title a {
@@ -1952,7 +1995,7 @@ ul {
   margin-bottom: 5px;
   margin-top: 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .comment-overview {
@@ -2525,7 +2568,7 @@ ul {
   border-radius: 4px;
   color: #fff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   margin-right: 2px;
   padding: 3px 10px;
   vertical-align: middle;
@@ -2805,7 +2848,7 @@ ul {
 
 .post-sidebar-title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .post-comments {
@@ -2825,7 +2868,7 @@ ul {
   border-radius: 4px;
   color: #fff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0px 8px;
   vertical-align: top;
   white-space: nowrap;
@@ -2879,7 +2922,7 @@ ul {
 
 .community-badge-achievements-rest {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 20px;
   text-align: center;
   vertical-align: top;
@@ -3531,7 +3574,7 @@ ul {
 
 .request-sidebar h2 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
 }
 
@@ -4056,7 +4099,7 @@ ul {
 }
 
 .profile-badges-item-title {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .profile-badges-item-description, .profile-badges-item-metadata-description {
@@ -4261,7 +4304,7 @@ ul {
 }
 
 .profile-activity-description span:first-child {
-  font-weight: 600;
+  font-weight: 500;
   display: inline;
 }
 
@@ -4414,7 +4457,7 @@ ul {
 
 .search-results-subheading {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .search-results-list {

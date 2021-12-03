@@ -18,6 +18,7 @@ $secondary-shade: zass-darken($background_color, 5%); //#f2f2f2 for the default 
 $border-radius: 5px;
 $color-gray-dark: #888;
 $color-gray-main: #ddd;
+$color-red: #ed1c24;
 
 $font-size-bigger: 16px;
 $font-size-base: 16px;
@@ -39,6 +40,7 @@ $desktop-width: 1024px;
 $max-width-container: 1160px;
 
 // Fonts
-$heading_font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !default;
-$text_font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !default;
-$font-weight-semibold: 600;
+$heading_font: "Styrene B Bold", BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !default;
+$text_font: "Styrene B Regular", BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !default;
+$text_font_medium: "Styrene B Medium", BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !default;
+$font-weight-semibold: 500;

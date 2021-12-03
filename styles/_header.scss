@@ -60,6 +60,8 @@ $header-height: 65px;
       display: inline-block;
     }
 
+    font-family: $text_font_medium;
+    font-weight: $font-weight-semibold;
     border: 0;
     color: $brand_text_color;
     display: none;
