@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/currenxie/copenhagen_theme/compare/v1.0.3...v1.1.0) (2024-09-12)
+
+
+### Features
+
+* [sc-000] update template (approved by MT) ([#7](https://github.com/currenxie/copenhagen_theme/issues/7)) ([9e432f9](https://github.com/currenxie/copenhagen_theme/commit/9e432f9c00ed4631fe0775c514725862ba9b862b))
+
 ## [1.0.3](https://github.com/currenxie/copenhagen_theme/compare/v1.0.2...v1.0.3) (2022-01-11)
 
 
