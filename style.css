@@ -224,7 +224,7 @@ body {
   font-family: $text_font;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: -0.15px;
+  letter-spacing: normal;
   text-size-adjust: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1258,17 +1258,13 @@ ul {
   color: $brand_text_color;
   background-position: center;
   background-size: cover;
-  height: 300px;
-  padding: 0 20px;
+  padding: 12px 20px;
   text-align: center;
   width: 100%;
 }
 
 .hero-inner {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  max-width: 610px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
